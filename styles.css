@@ -1,0 +1,60 @@
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 200px 200px 300px;
+    grid-template-areas: "header header header "
+                                    "content content sidebar "
+                                    "footer footer footer";
+    color: black;
+}
+.box {
+    background-color:#96E2F4;
+    border-radius: 1em;
+}
+.header {
+    grid-area: header;
+    padding: 5.25%;
+}
+
+.content {
+    grid-area: content;
+    padding: 8.9%;
+}
+.sidebar {
+    grid-area: sidebar;
+    padding: 8.9%;
+}
+.footer {
+    grid-area: footer;
+    padding: 3%;
+}
+#selfie {
+    width: 99%;
+    height: auto;
+    border-radius: 3%;
+}
+body {
+    background: #57CBFF;
+}
+
+.nav {
+    background: #FF9784;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: .75em;
+    border-radius: 1em;
+    font-family: Baskerville;
+    color: black;
+    
+}
+.nav:hover{
+    color: white;
+}
+.statement {
+    text-indent: 1em;
+    font-family: Baskerville;
+    font-size: 1.15em;
+}
+#insta  {
+    width: 12%;
+}
